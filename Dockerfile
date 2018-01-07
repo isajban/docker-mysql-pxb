@@ -8,9 +8,6 @@ MAINTAINER Ivan Sajban <ivan.sajban@gmail.com>
  
 ## List all packages that we want to install
 ENV PACKAGE percona-xtrabackup-24
-
-## Expose MySQL port to localhost
-EXPOSE 3306
  
 # Install requirement (wget)
 RUN apt-get update && apt-get install -y wget
